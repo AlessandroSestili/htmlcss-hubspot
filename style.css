@@ -3,119 +3,185 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* HEADER-SECTION  */
+
+/* HEADER  */
 header {
     width: 100%;
-    height: 20vh;
-}
-
-header > .wrapper {
-    width: 80%;
-    height: 100%;
-
-    margin: auto;
+    height: 160px;
 }
 
 
 
-/* TOP NAV  */
-.nav {
+/* TOP-WRAPPER  */
+.top-wrapper {
+    height: 80px;
     width: 100%;
-    height: 50%;
-}
 
-.nav::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+    border-bottom: 1px solid black;
 
-.wrapper > .top.nav {
     background-color: rgb(245, 249, 253);
 }
 
 
-.side::after {
-    content: "";
+/* TOP-NAV  */
+.top-nav {
+    width: 80%;
+    height: 100%;
+}
+
+
+
+/* TOP-NAV > LEFT-SIDE  */
+.top-nav >.left-side {
+    height: 100%;
+    width: 20%;
+
+    float: left;
+}
+
+.top-nav > .left-side > * {
+    width: 50%;
+    height: 100%;
+
+    float: left;
+}
+
+.language-bar > div {
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contacts-bar > div {
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+/* TOP-NAV > RIGHT-SIDE  */
+.top-nav >.right-side {
+    height: 100%;
+    width: 25%;
+
+    float: right;
+}
+
+.top-nav > .right-side > * {
+    height: 100%;
+
+    float: right;
+}
+
+.finder-bar {
+    width: 20%;
+}
+
+.login-bar {
+    width: 30%;
+}
+
+.register-bar {
+    width: 50%;
+}
+
+.register-bar > a {
+    display: inline-block;
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    background-color: rgb(237, 127, 98);
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-bar > div {
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    background-color: white;
+    color: rgb(237, 127, 98);
+
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(237, 127, 98)
+}
+
+.finder-bar > div{
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    text-align: center;
+}
+
+
+
+/* BOTTOM-NAV  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility class  */
+
+.border {
+    border: 1px solid black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.clearfix::after {
     display: table;
+    content: "";
     clear: both;
 }
-/* LEFT SIDE  */
-.left.side {
-    width: 30%;
-    height: 100%;
 
-    /* cancella  */
-    border: 1px solid red;
+.margin {
+    margin: auto;
 }
-
-.language.bar {
-    width: 50%;
-    height: 100%;
-
-    /* cancella  */
-    border: 1px solid yellow;
-}
-
-.hr.bar {
-    height: 30%;
-    border-left: 1px solid black;
-}
-
-.contacs-us.bar {
-    width: 50%;
-    height: 100%;
-
-    /* cancella  */
-    border: 1px solid purple;
-}
-
-
-
-/* RIGHT SIDE  */
-.right.side > * {
-    float: right;
-}
-
-.right.side {
-    width: 30%;
-    height: 100%;
-
-    /* cancella  */
-    border: 1px solid black;
-
-    float: right;
-}
-
-
-.register.bar {
-    width: 50%;
-    height: 100%;
-
-    /* cancella  */
-    border: 1px solid black;
-}
-
-.login.bar {
-    width: 25%;
-    height: 100%;
-
-    /* cancella  */
-    border: 1px solid black;
-}
-
-.finder.bar {
-    width: 25%;
-    height: 100%;
-
-    /* cancella  */
-    border: 1px solid black;
-}
-
-
-
-
-
-
-
-
