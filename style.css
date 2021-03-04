@@ -109,7 +109,8 @@ header {
     border-radius: 5px;
 }
 
-.login-bar > div {
+.login-bar > a {
+    display: inline-block;
     position: relative;
 
     top: 50%;
@@ -127,19 +128,94 @@ header {
     border: 1px solid rgb(237, 127, 98)
 }
 
-.finder-bar > div{
+.finder-bar > a {
+    display: inline-block;
     position: relative;
 
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
 
-    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* BOTTOM-WRAPPER  */
+.bottom-wrapper {
+    height: 80px;
+    width: 100%;
+
+    background-color: white(245, 249, 253);
 }
 
 
 
 /* BOTTOM-NAV  */
+.bottom-nav {
+    width: 80%;
+    height: 100%;
+}
+
+
+
+/* BOTTOM-NAV > LEFT-SIDE */
+.bottom-nav >.left-side {
+    height: 100%;
+    width: 10%;
+
+    float: left;
+}
+
+.logo > img{
+    width: 80%;
+
+    position: relative;
+    transform: translate(25% , 90%);
+}
+
+
+
+
+/* BOTTOM-NAV > RIGHT-SIDE  */
+.bottom-nav >.right-side {
+    height: 100%;
+    width: 40%;
+
+    float: right;
+}
+
+.bottom-nav >.right-side > ul {
+    width: 100%;
+    height: 100%;
+
+    list-style: none;
+
+    float: right;
+}
+
+.bottom-nav li {
+    width: 20%;
+    height: 100%;
+
+    float: right;
+}
+
+.bottom-nav a {
+    display: inline-block;  
+
+    text-decoration: none;
+    color: black;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30% , -50%);
+}
+
+
+
+
 
 
 
