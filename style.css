@@ -314,12 +314,132 @@ main {
 
 .crm-wrapper .left-side{
     width: 30%;
+    height: 100%;
     
+}
+
+.img-container {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
 }
 
 .img-container img {
     width: 50%;
 }
+
+.left-side .container {
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%) ;
+}
+
+.crm-wrapper .right-side {
+    width: 70%;
+    height: auto;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.crm-wrapper .right-side > * {
+    padding: 10px 0;
+}
+
+.crm-wrapper li {
+    display: inline-block;
+}
+
+.crm-wrapper span {
+    color:white;
+    background-color: rgb(237, 127, 98);
+
+    height: 2px;
+    width: 2px;
+
+    border-radius: 50%;
+    padding: 0 5px;
+    margin:0 5px;
+}
+
+
+
+
+/* CARDS  */
+.cards {
+    width: 100%;
+    height: 80vh;
+
+    background-color: rgb(245, 249, 253);
+
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cards-wrapper {
+    width: 80%;
+    height: 100%;
+}
+
+.cards-wrapper > * {
+    width: 30%;
+    height: 100%;
+
+    float: left;
+}
+
+.central.card {
+    margin: 0% 5%;
+}
+
+.card {
+    background-color: white;
+
+    border-radius: 5px;
+}
+
+.card > * {
+    text-align: center;
+
+    padding-bottom: 40px;
+}
+
+.card h4 , h3 {
+    font-size: x-large;
+}
+
+.card ul {
+    list-style: none;
+    
+    text-align: left;
+    margin-left: 15%;
+}
+
+.cards span {
+    color:white;
+    background-color: rgb(237, 127, 98);
+
+    height: 2px;
+    width: 2px;
+
+    border-radius: 50%;
+    padding: 0 5px;
+    margin:0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
