@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ----------HEADER----------  */
+/* HEADER  */
 header {
     width: 100%;
     height: 160px;
@@ -206,7 +206,7 @@ header {
 
 
 
-/* ----------MAIN----------  */
+/* MAIN  */
 main {
     width: 100%;
 }
@@ -216,7 +216,7 @@ main {
 /* jumbotron  */
 .jumbotron {
     width: 100%;
-    height: 75.2vh;
+    height: 72.8vh;
 
     background-image: url("img/jumbotron.png");
     background-size: cover;
@@ -246,18 +246,6 @@ main {
     font-size: 50px;
 }
 
-.jumbotron .text-container a {
-    text-decoration: none;
-
-    color: white;
-    background-color: rgb(237, 127, 98);
-
-    display: inline-block;
-
-    padding: 20px;
-    border-radius: 5px;
-}
-
 
 /* JUMBOTRON-DIVISOR  */
 .jumbotron-divisor {
@@ -271,11 +259,77 @@ main {
 }
 
 
-
 /* FEATURE  */
 .feature {
-    background-color: ;
+    width: 100%;
+
+    background-color: rgb(245, 249, 253);
 }
+
+.feature .rubik-wrapper {
+    width: 80%;
+    height: 45vh;
+}
+/* rubik  */
+.rubik-container {
+    width: 100%;
+    height: 100%;
+}
+
+.rubik-container > * {
+    padding: 10px;
+}
+
+.rubik-img {
+    width: 20%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rubik-container > div h2 {
+    font-size: xx-large;
+
+    text-align: center;
+}
+
+.rubik-container  p {
+    text-align: center;
+}
+
+/* crm  */
+.crm-wrapper {
+    width: 80%;
+    height: 40vh;
+
+    background-color: white;
+}
+
+.crm-wrapper > * {
+    height: 100%;
+
+    float: left;
+}
+
+.crm-wrapper .left-side{
+    width: 30%;
+    
+}
+
+.img-container img {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -331,4 +385,16 @@ main {
 
 .margin {
     margin: auto;
+}
+
+.button {
+    text-decoration: none;
+
+    color: white;
+    background-color: rgb(237, 127, 98);
+
+    display: inline-block;
+
+    padding: 25px 50px;
+    border-radius: 5px;
 }
