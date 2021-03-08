@@ -463,7 +463,9 @@ main {
 .table-wrapper {
     width: 100%;
 
-    background-color: rgb(83, 182, 169);
+
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    
 }
 
 .table-container {
@@ -506,8 +508,6 @@ main {
 /* LAST-HERO  */
 .last-hero {
     width: 100%;
-
-    background-color: white;
 
     padding-top: 30px;
 }
@@ -592,18 +592,16 @@ footer h4 {
 
 footer ul {
     list-style: none;
-
-
 }
 
 footer li {
     padding-top: 10px;
-
-    text-decoration: none;
 }
 
 footer a {
     color: white;
+
+    text-decoration: none;
 }
 
 .small-button {
@@ -630,6 +628,8 @@ footer a {
 
 .bottom-footer {
     width: 100%;
+
+    padding-top: 40px;
 }
 
 .languages {
@@ -646,6 +646,21 @@ footer .divisor {
     width: 100%;
 
     border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
+}
+
+footer .right > * {
+    display: inline-block;
+
+    padding: 5px;
 }
 
 
