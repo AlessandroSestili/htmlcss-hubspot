@@ -343,11 +343,11 @@ main {
 
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
 }
 
 .crm-wrapper .right-side > * {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .crm-wrapper li {
@@ -369,16 +369,15 @@ main {
 .popolar-line {
     border-bottom: 1px solid black;
 
-    width: 70%;
+    width: 60%;
 
     float: right;
 
-    margin-top: -15px 
+    margin-top: -10px;
+    margin-right: 40px;
 }
 
-.padding-button {
-    padding-top: 30px;
-}
+
 
 
 
@@ -390,7 +389,7 @@ main {
     background-color: rgb(245, 249, 253);
 
     padding-top: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .cards-wrapper {
