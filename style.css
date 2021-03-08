@@ -31,7 +31,7 @@ header {
 
 
 /* TOP-NAV > LEFT-SIDE  */
-.top-nav >.left-side {
+.top-nav > .left-side {
     width: 20%;
 
     float: left;
@@ -57,6 +57,8 @@ header {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+
+    border-left: 1px solid black;
 }
 
 
@@ -214,24 +216,24 @@ main {
 /* jumbotron  */
 .jumbotron {
     width: 100%;
-    height: 72.8vh;
 
     background-image: url("img/jumbotron.png");
     background-size: cover;
+    background-position-y: center;
+
+    padding-bottom: 100px;
 }
 
 
 /* jumbotron > wrapper  */
 .jumbotron > .wrapper {
     width: 80%;
-    height: 100%;
 }
 
 
 /* text-container  */
 .jumbotron .text-container {
     width: 50%;
-    height: 100%;
 
     padding-top: 50px;
 }
@@ -249,6 +251,8 @@ main {
 .jumbotron-divisor {
     width: 100%;
     height: 80px;
+    /* L'altezza al divisore statica la posso lasciare ? */
+
 
     border-top: 3px solid black;
     border-bottom: 3px solid black;
@@ -266,12 +270,12 @@ main {
 
 .feature .rubik-wrapper {
     width: 80%;
-    height: 45vh;
 }
 /* rubik  */
 .rubik-container {
     width: 100%;
-    height: 100%;
+
+    padding-bottom: 20px;
 }
 
 .rubik-container > * {
@@ -299,7 +303,8 @@ main {
 /* crm  */
 .crm-wrapper {
     width: 80%;
-    height: 40vh;
+
+    padding-top: 140px;
 
     background-color: white;
 }
@@ -312,7 +317,6 @@ main {
 
 .crm-wrapper .left-side{
     width: 30%;
-    height: 100%;
     
 }
 
@@ -336,7 +340,6 @@ main {
 
 .crm-wrapper .right-side {
     width: 70%;
-    height: auto;
 
     position: relative;
     top: 50%;
@@ -363,13 +366,26 @@ main {
     margin:0 5px;
 }
 
+.popolar-line {
+    border-bottom: 1px solid black;
+
+    width: 70%;
+
+    float: right;
+
+    margin-top: -15px 
+}
+
+.padding-button {
+    padding-top: 30px;
+}
+
 
 
 
 /* CARDS  */
 .cards {
     width: 100%;
-    height: 80vh;
 
     background-color: rgb(245, 249, 253);
 
@@ -379,12 +395,10 @@ main {
 
 .cards-wrapper {
     width: 80%;
-    height: 100%;
 }
 
 .cards-wrapper > * {
     width: 30%;
-    height: 100%;
 
     float: left;
 }
@@ -428,19 +442,33 @@ main {
     margin:0 5px;
 }
 
+.central.card img {
+    width: 55%;
+
+    padding-top: 25px;
+}
+
+.right.card img {
+    width: 40%;
+
+    padding-top: 25px;
+}
+
+.left.card img {
+    padding-top: 2px;
+}
+
 
 
 /* TABLE  */
 .table-wrapper {
     width: 100%;
-    height: 60vh;
 
     background-color: rgb(83, 182, 169);
 }
 
 .table-container {
     width: 80%;
-    height: 100%;
 
     padding-top: 30px;
 }
@@ -455,20 +483,18 @@ main {
 .table ul {
     list-style: none;
 
-    height: 230px;
-
     border-right: -1px solid black;
 }
 
 .table li {
     width: 25%;
-    height: 50%;
 
     float: left;
 
     border-right: 1px solid white;
     border-bottom: 1px solid white;
 }
+
 
 .table li > * {
     padding-bottom: 10px;
@@ -479,7 +505,6 @@ main {
 /* LAST-HERO  */
 .last-hero {
     width: 100%;
-    height: 60vh;
 
     background-color: white;
 
@@ -489,12 +514,10 @@ main {
 
 .last-hero-container {
     width: 80%;
-    height: 100%;
 }
 
 .column {
     width: 50%;
-    height: 100%;
 
     float: left;
 }
@@ -511,16 +534,16 @@ main {
 
 .right.column .logos {
     width: 90%;
-    height: 30%;
 
     list-style: none;
 }
 
 .right.column .logos > * {
     width: 25%;
-    height: 50%;
 
     float: left;
+
+    padding: 10px;
 }
 
 .right.column .logos > * > * {
@@ -542,7 +565,6 @@ main {
 /* -------FOOTER-------  */
 footer {
     width: 100%;
-    height: 60vh;
 
     background-color: rgb(55, 72, 89);
     color: white;
@@ -550,7 +572,6 @@ footer {
 
 footer .wrapper {
     width: 80%;
-    height: 100%;
 }
 
 .top-footer {
