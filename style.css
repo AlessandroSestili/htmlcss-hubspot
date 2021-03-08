@@ -482,24 +482,26 @@ main {
 .table ul {
     list-style: none;
 
-    border-right: -1px solid black;
+    padding: 10px 10px;
 }
 
 .table li {
     width: 25%;
 
     float: left;
-
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
+.right-border-table {
+    border-right: 1px solid white;
+}
+
+.bottom-border-table {
+    border-bottom:1px solid white ;
+}
 
 .table li > * {
-    padding-bottom: 10px;
-
+    padding: 10px 10px;
 }
-
 
 /* LAST-HERO  */
 .last-hero {
@@ -508,7 +510,6 @@ main {
     background-color: white;
 
     padding-top: 30px;
-
 }
 
 .last-hero-container {
