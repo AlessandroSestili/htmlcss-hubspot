@@ -7,17 +7,16 @@
 /* -----------HEADER---------  */
 header {
     width: 100%;
-    height: 160px;
 }
 
 
 
 /* TOP-WRAPPER  */
 .top-wrapper {
-    height: 80px;
     width: 100%;
 
     border-bottom: 1px solid black;
+    padding-top: 30px;
 
     background-color: rgb(245, 249, 253);
 }
@@ -26,13 +25,13 @@ header {
 /* TOP-NAV  */
 .top-nav {
     width: 80%;
-    height: 100%;
+
+    padding-top: 10px;
 }
 
 
 /* TOP-NAV > LEFT-SIDE  */
 .top-nav >.left-side {
-    height: 100%;
     width: 20%;
 
     float: left;
@@ -40,7 +39,6 @@ header {
 
 .top-nav > .left-side > * {
     width: 50%;
-    height: 100%;
 
     float: left;
 }
@@ -64,14 +62,12 @@ header {
 
 /* TOP-NAV > RIGHT-SIDE  */
 .top-nav >.right-side {
-    height: 100%;
     width: 25%;
 
     float: right;
 }
 
 .top-nav > .right-side > * {
-    height: 100%;
 
     float: right;
 }
@@ -138,23 +134,23 @@ header {
 
 /* BOTTOM-WRAPPER  */
 .bottom-wrapper {
-    height: 80px;
     width: 100%;
 
     background-color: white(245, 249, 253);
+
+    padding-bottom: 50px;
 }
 
 
 /* BOTTOM-NAV  */
 .bottom-nav {
     width: 80%;
-    height: 100%;
+
 }
 
 
 /* BOTTOM-NAV > LEFT-SIDE */
 .bottom-nav >.left-side {
-    height: 100%;
     width: 10%;
 
     float: left;
@@ -170,24 +166,26 @@ header {
 
 /* BOTTOM-NAV > RIGHT-SIDE  */
 .bottom-nav >.right-side {
-    height: 100%;
     width: 40%;
 
     float: right;
+
 }
 
 .bottom-nav >.right-side > ul {
     width: 100%;
-    height: 100%;
 
     list-style: none;
 
     float: right;
+
+    position: relative;
+    transform: translateY(200%);
+    
 }
 
 .bottom-nav li {
     width: 20%;
-    height: 100%;
 
     float: right;
 }
