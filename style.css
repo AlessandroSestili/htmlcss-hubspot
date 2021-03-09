@@ -663,6 +663,12 @@ footer .right > * {
     padding: 5px;
 }
 
+.social-logo > * {
+    width: 30px;
+
+    display: inline-block;
+}
+
 
 
 
